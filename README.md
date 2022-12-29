@@ -6,6 +6,9 @@
     </style>
   </head>
   <body>
-    <div class="test">test here</div>
+    <div id="test" class="test">test here</div>
+    <script>
+      document.getElementId("test").innerText = "test there";
+    </scirpt>
   </body>
 </html>
